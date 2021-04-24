@@ -1,0 +1,14 @@
+body{
+    background: #cecece;
+}
+
+h3{
+    color:rgb(83, 74, 74);
+}
+
+.foto {
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 50%;
+    box-shadow: 4px 2px 3px rebeccapurple;
+}
