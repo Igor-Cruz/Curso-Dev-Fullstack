@@ -1,0 +1,25 @@
+.exemplo {
+    border: 2px solid black;
+}
+
+.exemplo1 p {
+    color: tomato;
+}
+
+h1, h2, h3 {
+    color: turquoise;
+
+}
+
+.exemplo2 > p {
+    color: violet;
+
+}
+
+.exemplo3 + p {
+    color: blueviolet;
+}
+
+.exemplo ~ p {
+    color: crimson;
+}
