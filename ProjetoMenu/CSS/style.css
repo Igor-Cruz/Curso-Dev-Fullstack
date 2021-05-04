@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(179, 174, 174);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    box-shadow: 0 0 10px black;
+    padding: 0 20px;
+}
+
+.logo{
+    color: white;
+    letter-spacing: -3px;
+    text-transform: lowercase;
+}
+
+.logo span:first-child{
+    color: blueviolet;
+}
+
+.logo span:last-child{
+    font-size: 12px;
+    letter-spacing: normal;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    
+}
+
+.menu > li {
+    position: relative;
+}
+
+.menu > li a{
+    padding: 17px;
+    text-decoration: none; 
+    color: white;
+    display: block;
+}
+
+.menu > li:hover{
+    background-color: blueviolet;
+}
+
+.menu > li:hover > .submenu,
+.submenu > li:hover > .submenu{
+    display: block;
+   
+}
+
+
+.submenu{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: blueviolet;
+    list-style: none;
+    min-width: 110%;
+}
+
+.submenu li:hover{
+    background-color: black;
+}
+
+.submenu li {
+    position: relative;
+}
+
+.submenu li .submenu{
+    top: 0;
+    left: 100%;
+}
