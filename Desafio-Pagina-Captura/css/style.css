@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+
+}
+
+body{
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.container{
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo{
+    width: 80px;
+    margin: 50px 0 20px 0;
+}
+
+h1{
+    font-size: 39px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+h2{
+    font-size: 22px;
+    margin-top: 12px;
+    word-spacing: 2px;
+}
+
+h3{
+    font-size: 17px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.checkbox{
+    margin: 0;
+}
+
+
+.labelConfirmacao{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.input { 
+    margin: 6px 0;
+}
+
+.inputCentralizado {
+    width: 100%;
+    border: 0;
+    height: 40px;
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: rgb(25, 108, 216);
+    text-align: center;
+    text-shadow: 0 0 10px rgb(25, 108, 216)
+}
+
+.botaoCentralizado{
+    width: 100%;
+    height: 42px;
+    margin-top: 17px ;
+    background-color: rgb(25, 108, 216);
+    color: white;
+    border: 1px solid rgb(25, 108, 216);
+    border-radius: 5px;
+    align-items: center;
+    text-shadow: 0 0 10px white;
+}
+
+input:hover{
+    background-color: white;
+    color: rgb(25, 108, 216);
+}
+
+
+
+
