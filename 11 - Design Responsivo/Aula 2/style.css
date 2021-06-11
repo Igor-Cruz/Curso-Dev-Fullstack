@@ -1,0 +1,12 @@
+body{
+background-color: black;
+color: white;    
+}
+
+@media (max-width: 400px){
+    body{
+        background-color: teal;
+        color: tan;
+    }
+
+}
